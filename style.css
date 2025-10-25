@@ -16,7 +16,7 @@ body{
 
 .container{
    min-height: 20rem; 
-   min-width: 24rem;
+   width: 24rem;
    background-color: #FAF7F3;
    border-radius: 1rem;
    padding:2rem;
@@ -91,4 +91,21 @@ margin: 1rem 0 0 0;
 background-color:#FAEB92 ;
 font-size: 1.2rem;
 border:1px solid #EB5B00 ;
+}
+
+/* start media query */
+@media(max-width:600px){
+    .container {
+    width: 90%;
+   }
+     .container h1{
+        font-size: 1.7rem;
+     }
+     .msg{
+
+    font-size: 1rem;
+    font-weight: 550;
+    
+   }
+
 }
